@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import NumeroMegaSenaDisplay from "../../components/MegaSena/NumeroMegaSenaDisplay";
-import { mega } from "../../functions/MegaSena/mega";
+import { geraNumeroAleatorioDe6a60 } from "../../functions/MegaSena/geraNumeroAleatorioDe6a60";
 
 export default function Megasena() {
   
@@ -9,7 +9,7 @@ export default function Megasena() {
   const [numeros, setNumeros] = useState([])
 
   useEffect(() => {
-    setNumeros(mega())
+    setNumeros(geraNumeroAleatorioDe6a60())
   },[])
 
   function renderizarNumeros() {
@@ -41,7 +41,7 @@ export default function Megasena() {
                onChange={e => setValor(e.target.value)} 
                style={{fontSize:"1rem"}}/>
         <button style={{fontSize:"1rem"}} 
-          onClick={() => setNumeros(mega(valor))}>Gerar Números</button>
+          onClick={() => setNumeros(geraNumeroAleatorioDe6a60(valor))}>Gerar Números</button>
       </div>
     </div>
   )

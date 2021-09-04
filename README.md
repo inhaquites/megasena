@@ -3,7 +3,12 @@
     <img src="https://github.com/inhaquites/megasena/blob/main/public/inhaquites.jpg" alt="Logo Repo" width="150">
     <h2>
         Gerador de números Mega-Sena
-    </h2>    
+    </h2>
+    <br>
+        <div align="center">
+            <img src="https://raw.githubusercontent.com/inhaquites/megasena/main/public/MegaSena.PNG" alt="megasena" width="400">        
+        </div>
+    <br>
 </div>
 <br>
 
@@ -28,12 +33,3 @@ yarn dev
 ```
 
 Abra [http://localhost:3000](http://localhost:3000) com seu navegador para ver o resultado.
-
-<br>
-<div align="center">
-    <img src="https://raw.githubusercontent.com/inhaquites/megasena/main/public/MegaSena.PNG" alt="megasena" width="400">
-        
-</div>
-<br>
-
-
