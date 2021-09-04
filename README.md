@@ -7,12 +7,25 @@
     <br>
         <div align="center">
             <img src="https://raw.githubusercontent.com/inhaquites/megasena/main/public/MegaSena.PNG" alt="megasena" width="400">        
-        </div>
+        </div>        
     <br>
 </div>
+<div>
+    <h2>Funcionalidades:</h2>
+    <ul>
+        <li>Gerar numeros de 1 a 60</li>
+        <li>Gerar de 6 a 15 combinações</li>
+    </ul>
+</div>
+<div>
+    <h2>Caso de estudo:</h2>
+    <ul>
+        <li>Funções</li>
+        <li>Criação de Componentes</li>
+        <li>Estilização</li>
+    </ul>
+</div>
 <br>
-
-Este é um projeto [Next.js](https://nextjs.org/) inicializado com [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Início
 
@@ -32,4 +45,4 @@ npm run dev
 yarn dev
 ```
 
-Abra [http://localhost:3000](http://localhost:3000) com seu navegador para ver o resultado.
+Abra [http://localhost:3000/megasena](http://localhost:3000/megasena) com seu navegador para ver o resultado e gerar suas apostas.

@@ -1,4 +1,4 @@
-export function geraNumeroAleatorioDe6a60(quantidade = 6, numeros = []) {
+export function geraNumeroAleatorioDe1a60(quantidade = 6, numeros = []) {
   let qtde = +quantidade
   if(qtde < 6 && qtde > 60) {
     throw "Quantidade inválida"
@@ -10,8 +10,8 @@ export function geraNumeroAleatorioDe6a60(quantidade = 6, numeros = []) {
 
   const numeroAleatorio = parseInt(Math.random() * 60) + 1
   if(!numeros.includes(numeroAleatorio)){
-    return geraNumeroAleatorioDe6a60(qtde, [...numeros, numeroAleatorio])
+    return geraNumeroAleatorioDe1a60(qtde, [...numeros, numeroAleatorio])
   } else {
-    return geraNumeroAleatorioDe6a60(qtde, numeros)
+    return geraNumeroAleatorioDe1a60(qtde, numeros)
   }  
 }
